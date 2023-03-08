@@ -12,7 +12,7 @@ namespace Coding.Csv_File
     public class DataFetchingCsv
     {
         //fetch data from csv file
-        public static void Main(string[] args)
+        public static void aaain(string[] args)
         {
             string path = @"D:\VisualStudioRepos\AzureDevOps\Coding\Coding\Csv_File\CsvData.csv";
 
