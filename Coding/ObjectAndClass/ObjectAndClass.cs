@@ -20,7 +20,6 @@ namespace Coding.ObjectAndClass
             this.name = name;
             Console.WriteLine(id + " " + name);
         }
-
         public static void aain(string[] args)
         {
             ObjectAndClass objectAndClass = new ObjectAndClass();
@@ -28,8 +27,6 @@ namespace Coding.ObjectAndClass
             objectAndClass.name = "varun";
             Console.WriteLine(objectAndClass.id + " " + objectAndClass.name);
             ObjectAndClass objectAndClass1 = new ObjectAndClass(2, "yusuf");
-
-
         }
     }
 }

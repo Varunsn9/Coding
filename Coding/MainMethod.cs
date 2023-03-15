@@ -8,7 +8,7 @@ namespace Coding
 {
     public class MainMethod
     {
-        public static void Main()
+        public static void ain()
         {
             Console.WriteLine("Main method is located in Coding.MainMethod.cs class");
         }

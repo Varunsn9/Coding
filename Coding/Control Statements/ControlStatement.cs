@@ -176,7 +176,7 @@ namespace Coding.Control_Statements
         }
     }
     //GoTo Control StateMent
-    public class GoTo
+    public class Goto
     {
         public static void ain()
         {
