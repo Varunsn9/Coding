@@ -35,9 +35,9 @@ namespace Coding.Functions
             Console.WriteLine(value);
             //function with parameter
             functions.Show("TYSS");
-
         }
     }
+
     //Functions call By Value
     public class FunctionsByValue
     {
@@ -55,6 +55,8 @@ namespace Coding.Functions
             Console.WriteLine("value after calling the functions " + num);
         }
     }
+
+
     //Functions call By Reference
     public class FunctionsByReference
     {
@@ -72,6 +74,8 @@ namespace Coding.Functions
             Console.WriteLine("value after calling the functions " + num);
         }
     }
+
+
     //Functions OUT parameter
     public class FunctionsOutParameter
     {

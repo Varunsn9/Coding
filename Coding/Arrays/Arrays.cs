@@ -12,9 +12,7 @@ namespace Coding.Arrays
         {
             int[] arr = new int[5];
             arr[0] = 1;
-
             arr[2] = 3;
-
             arr[4] = 5;
 
             for (int i = 0; i < arr.Length; i++)
@@ -22,7 +20,6 @@ namespace Coding.Arrays
                 Console.WriteLine(arr[i]);
             }
         }
-
         public static void bain(string[] args)
         {
             int[] arr = new int[] { 1, 2, 3, 4, 5 };
@@ -38,6 +35,7 @@ namespace Coding.Arrays
             }
         }
     }
+
     //Array Functions
     public class ArrayFunctions
     {
@@ -76,7 +74,7 @@ namespace Coding.Arrays
                 Console.WriteLine(array[i]);
             }
         }
-
+        
         public static void aain(string[] args)
         {
             ArrayFunctions array = new ArrayFunctions();
@@ -90,6 +88,8 @@ namespace Coding.Arrays
             Console.WriteLine(min);
         }
     }
+
+
     //Multi dimensional Array
     public class MultiDimensionalArray
     {
@@ -155,9 +155,9 @@ namespace Coding.Arrays
     //ArrayClass Functions
     public class ArrayClass
     {
-        public static void aain(string[] args)
+        public static void aaain(string[] args)
         {
-            int[] array = new int[] { 9, 3, 4, 5, 6, 8, 2, 1 };
+            int[] array = new int[] { 9, 3, 4, 5, 6, 8, 2, 1};
             var isFixedSize = array.IsFixedSize;
             var isReadOnly = array.IsReadOnly;
             var isSynchronized = array.IsSynchronized;

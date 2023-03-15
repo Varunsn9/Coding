@@ -11,23 +11,20 @@ namespace Coding.ObjectAndClass
     //Destructor is not working
     public class Destructor 
     {
-        
-
         public Destructor()
         {
             Console.WriteLine("this is a Constructor");
             //            MessageBox.Show("this is a Constructor");
-
         }
-
         ~Destructor()
         {
             Console.WriteLine("this is a Destructor");
              // MessageBox.Show("this is a Destructor");
         }
     }
+
     //Enums
-    public class TestDestructor
+    public class EnumExample
     {
         public enum Days { sun, mon, tue, wed, thr, fri, sat }
 
