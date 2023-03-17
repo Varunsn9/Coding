@@ -8,7 +8,7 @@ namespace Coding.CSharpCollection
 {
     public class DictionaryCollection
     {
-        public static void aiin(String[] args)
+        public static void main(String[] args)
         {
             var d = new Dictionary<int, string>();
             d.Add(1, "varun");

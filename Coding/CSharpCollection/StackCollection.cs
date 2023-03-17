@@ -8,7 +8,7 @@ namespace Coding.CSharpCollection
 {
     public class StackCollection
     {
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             var stack = new Stack<string>();
             stack.Push ("A");
