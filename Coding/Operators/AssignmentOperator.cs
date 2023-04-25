@@ -8,7 +8,7 @@ namespace Coding.Operators
 {
     public class AssignmentOperator
     {
-        public static void aain()
+        public static void main()
         {
 
             int x = 5;
@@ -20,7 +20,7 @@ namespace Coding.Operators
 
             // addition assignment operator (+=)
             y += x;  // equivalent to y = y + x;
-            Console.WriteLine($"y = {y}");  // prints "y = 10"
+            Console.WriteLine($"y = {y}");  // prints "y = 10" 
 
             // subtraction assignment operator (-=)
             y -= x;  // equivalent to y = y - x;

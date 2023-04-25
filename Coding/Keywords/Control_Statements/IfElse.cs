@@ -51,7 +51,7 @@ namespace Coding.Keywords.Control_Statements
                     Console.WriteLine(number + " is zero.");
                 }
             }
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             IfElse ifElse=new IfElse(3);
             ifElse.CheckPositiveNegativeZero();

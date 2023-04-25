@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Coding.Operators
 {
-    public class RelationalOperators
+
+public class RelationalOperators
     {
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             int x = 10, y = 5;
-
+            
             // Equal to operator (==): Returns true if the operands are equal, otherwise false.
             bool equal = (x == y);
             Console.WriteLine("{0} == {1}: {2}", x, y, equal); // Output: "10 == 5: False"
@@ -35,8 +36,7 @@ namespace Coding.Operators
             // Less than or equal to operator (<=): Returns true if the left operand is less than or equal to the right operand, otherwise false.
             bool lessThanOrEqual = (x <= y);
             Console.WriteLine("{0} <= {1}: {2}", x, y, lessThanOrEqual); // Output: "10 <= 5: False"
-
-            
+           
         }
 
     }

@@ -8,7 +8,7 @@ namespace Coding.Inheritance
 {
     public class Aggregation
     {
-        public static void aain(String[] args)
+        public static void main(String[] args)
         {
             Address address=new Address("Bangalore","Karnataka","560076");
             Employee employee = new Employee( 1, "varun", address);

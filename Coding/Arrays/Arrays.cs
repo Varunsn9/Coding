@@ -8,7 +8,7 @@ namespace Coding.Arrays
 {
     public class Arrays
     {
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             int[] arr = new int[5];
             arr[0] = 1;
@@ -20,7 +20,7 @@ namespace Coding.Arrays
                 Console.WriteLine(arr[i]);
             }
         }
-        public static void bain(string[] args)
+        public static void ain(string[] args)
         {
             int[] arr = new int[] { 1, 2, 3, 4, 5 };
             int[] brr = { 5, 6, 7, 8, 9 };
@@ -155,7 +155,7 @@ namespace Coding.Arrays
     //ArrayClass Functions
     public class ArrayClass
     {
-        public static void aaain(string[] args)
+        public static void main(string[] args)
         {
             int[] array = new int[] { 9, 3, 4, 5, 6, 8, 2, 1};
             var isFixedSize = array.IsFixedSize;
@@ -176,8 +176,9 @@ namespace Coding.Arrays
             {
                 Console.Write(array[i]);
             }
-            Console.WriteLine();
+            
             Array.Reverse(array);
+            Console.WriteLine(  );
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write(array[i]);
@@ -188,6 +189,13 @@ namespace Coding.Arrays
             {
                 Console.Write(array[i]);
             }
+            Console.WriteLine(  );
+            Array.Reverse(array);
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]);
+            }
+            
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Coding.Operators
 {
     public class LogicalOperators
     {
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             bool a = true, b = false, c = true;
 

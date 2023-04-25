@@ -8,7 +8,7 @@ namespace Coding.Operators
 {
  public class TernaryOperator
     {
-       public static void aain()
+       public static void main()
         {
             int x = 5, y = 10;
             bool b = true;

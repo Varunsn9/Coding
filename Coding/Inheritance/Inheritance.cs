@@ -24,7 +24,7 @@ namespace Coding.Inheritance
 
     public class Inheritance
     {
-        public static void aain(String[] args)
+        public static void main(String[] args)
         {
             _DerivedClass derivedClass=new _DerivedClass();
             derivedClass.Show();

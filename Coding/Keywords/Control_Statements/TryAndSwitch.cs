@@ -37,6 +37,7 @@ namespace Coding.Keywords.Control_Statements
                     case 7:
                         Console.WriteLine("Today is Sunday.");
                         break;
+                
                     default:
                         Console.WriteLine("Invalid day of the week.");
                         break;
@@ -45,13 +46,14 @@ namespace Coding.Keywords.Control_Statements
             catch (Exception ex)
             {
                 Console.WriteLine("An error occurred: " + ex.Message);
+                
             }
             finally
             {
                 Console.WriteLine("End of method.");
             }
         }
-        static void aain(string[] args)
+        static void main(string[] args)
         {
             TryAndSwitch myClass = new TryAndSwitch();
 

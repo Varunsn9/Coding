@@ -20,8 +20,4 @@
     </COMReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Practice\" />
-  </ItemGroup>
-
 </Project>

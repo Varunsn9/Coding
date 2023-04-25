@@ -24,12 +24,16 @@ namespace Coding.DataTypes
     }
     public class StructuresAndEnum
     {
-        public static void aain(String[] args)
+       static string name="varun";
+        public static void main(String[] args)
         {
             Person person = new Person();
+            Console.WriteLine(person.Name);
             person.Name = "TYSS";
             Console.WriteLine(person.Name);
             Console.WriteLine(DayOfWeek.Monday);
+
+            Console.WriteLine(name.Length);
         }
     }
 }

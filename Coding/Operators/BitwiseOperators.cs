@@ -8,7 +8,7 @@ namespace Coding.Operators
 {
     public class BitwiseOperators
     {
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             /*
              * bit code of each number

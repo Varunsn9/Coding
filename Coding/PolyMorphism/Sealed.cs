@@ -10,7 +10,7 @@ namespace Coding.PolyMorphism
     {
         public virtual void Display()
         {
-            Console.WriteLine("hi");
+            Console.WriteLine("hi from testsealed");
         }
     }
     public class Sealed : TestSealed
@@ -18,10 +18,10 @@ namespace Coding.PolyMorphism
 
         public sealed override void Display()
         {
-            Console.WriteLine("hi");
+            Console.WriteLine("hi from sealed class");
         }
     }
-    public class TSealed : TestSealed
+    public sealed class TSealed : TestSealed
     {
 
         public sealed override void Display()
@@ -30,13 +30,16 @@ namespace Coding.PolyMorphism
         }
     }
 
-    public class Output
+    public class Output 
     {
-        public static void ain(String[] args)
+        public const int number = 1;
+
+        public static void main(String[] args)
         {
             TestSealed testSealed = new Sealed();
-            testSealed.Display();   
-
+            testSealed.Display();
+            testSealed = new TSealed();
+            testSealed.Display();
         }
     }
 }

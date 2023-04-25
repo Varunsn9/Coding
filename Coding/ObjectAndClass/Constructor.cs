@@ -18,7 +18,7 @@ namespace Coding.ObjectAndClass
         {
             Console.WriteLine("constructor with string arguments " +value);
         }
-        public static void aain(string[] args)
+        public static void main(string[] args)
         {
             Constructor c = new Constructor();
             Constructor c1=new Constructor("Hello");

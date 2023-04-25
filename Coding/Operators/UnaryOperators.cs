@@ -9,7 +9,7 @@ namespace Coding.Operators
     public class UnaryOperators
     {
      
-       public static void aain()
+       public static void main()
         {
             int x = 5;
             int y;
