@@ -29,10 +29,6 @@ namespace Coding
                 Console.WriteLine("u can vote");
             }
             goto repeat;
-
         }
-           
-
-
     }
 }
