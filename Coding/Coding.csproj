@@ -20,4 +20,9 @@
     </COMReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CSharpCollection\GenericCollections\" />
+    <Folder Include="CSharpCollection\NonGenericCollections\" />
+  </ItemGroup>
+
 </Project>

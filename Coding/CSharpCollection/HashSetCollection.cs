@@ -8,8 +8,10 @@ namespace Coding.CSharpCollection
 {
     public class HashSetCollection
     {
-        public static void aain(string[] args)
+
+        public static void main(string[] args)
         {
+        
             var hs = new HashSet<String>();
             hs.Add("a");
             hs.Add("b");

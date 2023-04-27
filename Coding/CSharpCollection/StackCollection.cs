@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Coding.CSharpCollection
 {
+    /// <summary>
+    /// This is a Stack collection class
+    /// </summary>
     public class StackCollection
     {
         public static void main(string[] args)

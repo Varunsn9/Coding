@@ -8,16 +8,23 @@ namespace Coding.CSharpCollection
 {
     public class ListCollection
     {
-        public static void aain(String[] args)
+        public static void main(String[] args)
         {
             //adding to an array
             var vehicals= new List<string>();
+            //we are storing bmw in vehicals List
             vehicals.Add("bmw");
             vehicals.Add("audi");
-            Console.WriteLine(vehicals[0]);
+            //Console.WriteLine(vehicals[0]);
             //initialazation at the time of creation
-            var names=new List<string> { "varun","yusuf"};
-            Console.WriteLine(names[1]);
+            IList<string> names=new List<string> { "varun","yusuf"};
+            //Console.WriteLine(names[1]);
+            names.Add("lakshmi");
+             
+            foreach(string a in names)
+            {
+                Console.WriteLine(a);
+            }
         
         
         

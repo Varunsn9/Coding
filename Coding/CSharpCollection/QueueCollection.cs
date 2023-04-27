@@ -8,7 +8,7 @@ namespace Coding.CSharpCollection
 {
     public class QueueCollection
     {
-        public static void aain(String[] args)
+        public static void main(String[] args)
         {
             var queue = new Queue<string>();
             queue.Enqueue("a");
@@ -26,8 +26,8 @@ namespace Coding.CSharpCollection
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
+           
 
-            
         }
     }
 }

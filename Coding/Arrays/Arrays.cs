@@ -158,6 +158,7 @@ namespace Coding.Arrays
         public static void main(string[] args)
         {
             int[] array = new int[] { 9, 3, 4, 5, 6, 8, 2, 1};
+            array[2] = 12;
             var isFixedSize = array.IsFixedSize;
             var isReadOnly = array.IsReadOnly;
             var isSynchronized = array.IsSynchronized;

@@ -15,7 +15,11 @@ namespace Coding.Inheritance
     }
     public class _DerivedClass : _BaseClass
     {
-        public void Display()
+        /// <summary>
+        /// this is a Display method 
+        /// </summary>
+        /// <param name="a"> this will take int as a value</param>
+        public void Display(int a)
         {
             Console.WriteLine("This is a Display Method/Function in _DerivedClass");
         }
@@ -28,7 +32,11 @@ namespace Coding.Inheritance
         {
             _DerivedClass derivedClass=new _DerivedClass();
             derivedClass.Show();
-            derivedClass.Display();
+            derivedClass.Display(1);
         }
     }
+
+
+    
+
 }

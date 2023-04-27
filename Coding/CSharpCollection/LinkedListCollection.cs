@@ -10,6 +10,7 @@ namespace Coding.CSharpCollection
     {
         public static void aain(String[] args)
         {
+            
             var ll = new LinkedList<string>();
             ll.AddFirst("one");
             ll.AddFirst("two");
@@ -17,13 +18,15 @@ namespace Coding.CSharpCollection
             ll.AddLast("four");
             ll.AddLast("five");
             ll.AddLast("six");
-
+ 
             foreach (var item in ll)
             {
                 Console.WriteLine(item);
             }
+
             Console.WriteLine("-------------------------------------");
-            LinkedListNode<string> node=ll.Find("one");
+            
+            LinkedListNode<string> node=ll.Find("two");
             ll.AddAfter(node,"yusuf");
             ll.AddBefore(node,"varun");
 

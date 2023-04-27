@@ -53,8 +53,9 @@ namespace Coding.Delegates_CSharp
         }
         public class DelegatesClassMain
         {
-            public static void aain(String[] args)
+            public static void main(String[] args)
             {
+                
                 Calculator c1 = new Calculator(add);
                 Calculator c2 = new Calculator(mul);
                 Calculator c3 = new Calculator(sub);
@@ -67,9 +68,8 @@ namespace Coding.Delegates_CSharp
                 ac(20, 10);
                 bc(20, 10);
                 cc(20, 10);
-
+                
             }
         }
     }
-   
 }
