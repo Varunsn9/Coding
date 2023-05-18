@@ -73,13 +73,15 @@ namespace Coding.Keywords
                 {
                     Console.WriteLine("This is a nested method.");
                 }
-  
+                public static void Main(String[] args)
+                {
+                    Console.WriteLine(((int)MyEnum.Value3));
+                }
             }
         }
 }
 /*
  In this example, we have a class MyClass with various types and type members:
-
 enum: The MyEnum enum type is declared with three values.
 delegate: The MyDelegate delegate type is declared with no parameters and no return value.
 class: The MyClass class is declared with various type members.

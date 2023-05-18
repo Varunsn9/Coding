@@ -11,7 +11,7 @@ namespace Coding
     {
 
         string ran = "rajeev";
-        public static void Main(String[] args)
+        public static void main(String[] args)
         {
             repeat:
             Console.WriteLine("Enter your age");
