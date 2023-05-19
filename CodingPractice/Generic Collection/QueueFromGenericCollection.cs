@@ -8,29 +8,22 @@ namespace CodingPractice.Generic_Collection
 {
     internal class QueueFromGenericCollection
     {
-        public static void aain(string[] args)
+       public static void main()
         {
             Queue<int> ints = new Queue<int>();
             ints.Enqueue(1);
-            ints.Enqueue(2);
             ints.Enqueue(3);
-            ints.Enqueue(4);
+            ints.Enqueue(2);
             
-            Console.WriteLine(ints);
-
+            foreach (int i in ints) {
+                Console.WriteLine(i);
+            }
+            ints.Dequeue();
             foreach (int i in ints)
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine("========================");
-            Console.WriteLine(ints.Dequeue());
-            Console.WriteLine("========================");
-            foreach (int i in ints)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("========================");
-            Console.WriteLine(ints.Peek());
+            //first in first out
         }
     }
 }

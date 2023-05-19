@@ -30,6 +30,13 @@ namespace CodingPractice.NonGenericCollection
             {
                 Console.WriteLine(item);
             }
+            list.RemoveAt(0);
+            
+            Console.WriteLine("======================");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

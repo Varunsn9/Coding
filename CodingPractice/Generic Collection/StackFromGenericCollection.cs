@@ -30,6 +30,7 @@ namespace CodingPractice.Generic_Collection
 
                 Console.WriteLine(i);
             }
+            
         }
     }
 }
