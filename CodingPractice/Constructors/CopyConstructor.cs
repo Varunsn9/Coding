@@ -29,7 +29,7 @@ namespace CodingPractice.Constructors
     }
     public class Specification
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             CopyConstructor CC=new CopyConstructor(2,"bike");
             CopyConstructor CC2 = new CopyConstructor(CC);
