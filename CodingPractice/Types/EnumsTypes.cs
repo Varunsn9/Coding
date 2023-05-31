@@ -25,7 +25,7 @@ namespace CodingPractice.Types
     }
     internal class EnumsTypes
     {
-        public static void Main()
+        public static void main()
         {
             var Raddish=RootVegetables.Raddish;
             var Spring=Seasons.Spring;

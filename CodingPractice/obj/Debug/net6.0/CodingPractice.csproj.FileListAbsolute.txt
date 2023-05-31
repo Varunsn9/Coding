@@ -1,0 +1,15 @@
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\bin\Debug\net6.0\CodingPractice.exe
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\bin\Debug\net6.0\CodingPractice.deps.json
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\bin\Debug\net6.0\CodingPractice.runtimeconfig.json
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\bin\Debug\net6.0\CodingPractice.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\bin\Debug\net6.0\CodingPractice.pdb
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.csproj.AssemblyReference.cache
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.AssemblyInfoInputs.cache
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.AssemblyInfo.cs
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.csproj.CoreCompileInputs.cache
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\refint\CodingPractice.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.pdb
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\CodingPractice.genruntimeconfig.cache
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CodingPractice\obj\Debug\net6.0\ref\CodingPractice.dll
