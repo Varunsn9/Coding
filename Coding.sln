@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coding", "Coding\Coding.csproj", "{52F8BFA2-318B-4186-9C7F-84D3DC2A9E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingPractice", "CodingPractice\CodingPractice.csproj", "{6CB42B7A-C350-4262-87D7-28EC453D4B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPractice", "CodingPractice\CodingPractice.csproj", "{6CB42B7A-C350-4262-87D7-28EC453D4B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSelenium", "CSharpSelenium\CSharpSelenium.csproj", "{69631FAD-E4C1-4786-84E0-5ACE28324789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6CB42B7A-C350-4262-87D7-28EC453D4B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB42B7A-C350-4262-87D7-28EC453D4B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CB42B7A-C350-4262-87D7-28EC453D4B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69631FAD-E4C1-4786-84E0-5ACE28324789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69631FAD-E4C1-4786-84E0-5ACE28324789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69631FAD-E4C1-4786-84E0-5ACE28324789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69631FAD-E4C1-4786-84E0-5ACE28324789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
