@@ -63,9 +63,6 @@ namespace CSharpSelenium.Scripting
 
             string attribute=element.GetAttribute("class");
             Console.WriteLine(attribute);
-
-            
-
         }
     }
 }

@@ -1,7 +1,3 @@
-C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\CSharpSelenium.dll
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\CSharpSelenium.pdb
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
@@ -17,3 +13,7 @@ C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\obj\Debug\CSharpSe
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\obj\Debug\CSharpSelenium.csproj.CopyComplete
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\obj\Debug\CSharpSelenium.dll
 C:\Users\VARUN SN\source\repos\Varunsn9\Coding\CSharpSelenium\obj\Debug\CSharpSelenium.pdb
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\VARUN SN\Source\Repos\Varunsn9\Coding\CSharpSelenium\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
