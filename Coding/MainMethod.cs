@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Coding.Lamda_Expressions;
+using Coding.Lamda_Expressions.LamdaPractice;
+using Coding.Practice;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +11,10 @@ namespace Coding
 {
     public class MainMethod
     {
-        public static void ain()
+        public static void Main()
         {
             Console.WriteLine("Main method is located in Coding.MainMethod.cs class");
+            LamdaString.Programming();
         }
     }
 }

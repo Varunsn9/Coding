@@ -73,7 +73,7 @@ namespace Coding.Keywords
                 {
                     Console.WriteLine("This is a nested method.");
                 }
-                public static void Main(String[] args)
+                public static void main(String[] args)
                 {
                     Console.WriteLine(((int)MyEnum.Value3));
                 }
