@@ -178,7 +178,7 @@ namespace Coding.Control_Statements
     //GoTo Control StateMent
     public class Goto
     {
-        public static void ain()
+        public static void main()
         {
         youAre:
             Console.WriteLine("your are not eligible");
