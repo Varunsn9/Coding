@@ -112,5 +112,55 @@ namespace Coding.Arrays.ArrayPractice
                 Console.Write(a);
             }
         }
+        public static void SearchInAnArray()
+        {
+            
+            int search=int.Parse(Console.ReadLine());
+            int[] array = new int[10];
+            int count = 10;
+            for(int i = 0; i < array.Length; i++)
+            {
+                array[i] = count--;
+            }
+            count = 0;
+            for (int i = 0;i < array.Length; i++)
+            {
+                if (array[i] == search)
+                {
+                    Console.Write($"Index is { i}");
+                    count++;
+                }
+            }
+            if (count == 0)
+            {
+                Console.WriteLine(-1);
+            }
+        }
+        public static void ArrayIntersection()
+        {
+            int[] array = { 1, 2, 3, 4, 5 };
+            int[] array1 = { 5, 6, 3, 2, 1 };
+            int[] common = new int[array.Length];
+            int count = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                for(int j = 0; j < array1.Length; j++)
+                {
+                    if (array[i] == array1[j])
+                    {
+                        common[count] = array1[j];
+                        count++;
+                    }
+                }
+            }
+            foreach(int a in common)
+            {
+                if (a != 0) 
+                { 
+                Console.WriteLine(a);
+                }
+            }
+
+        }
     }
 }
