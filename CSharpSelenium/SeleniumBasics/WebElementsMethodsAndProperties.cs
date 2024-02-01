@@ -26,7 +26,7 @@ namespace CSharpSelenium.SeleniumBasics
             string text=element.Text;
             var attribute= element.GetAttribute(driver.CurrentWindowHandle);
             element.GetCssValue(driver.CurrentWindowHandle);
-            element.GetProperty(driver.CurrentWindowHandle);
+           // element.GetProperty(driver.CurrentWindowHandle);
             element.Clear();
             element.Click();
             element.Submit();

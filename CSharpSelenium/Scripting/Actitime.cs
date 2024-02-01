@@ -57,8 +57,8 @@ namespace CSharpSelenium.Scripting
             //pass the Css type it returns the value
             Console.WriteLine(getCSSValue);
 
-            string getProperty=element.GetProperty("hideFocus");
-            Console.WriteLine(getProperty);
+          //  string getProperty=element.GetProperty("hideFocus");
+            //Console.WriteLine(getProperty);
             //pass the JavaScript of the element it returns the value
 
             string attribute=element.GetAttribute("class");
