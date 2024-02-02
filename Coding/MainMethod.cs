@@ -12,7 +12,7 @@ namespace Coding
         public static void Main()
         {
             Console.WriteLine("Main method is located in Coding.MainMethod.cs class");
-            ArrayPractice.ArrayIntersection();
+            ArrayPractice.Union();
         }
     }
 }

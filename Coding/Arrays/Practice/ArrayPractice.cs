@@ -162,5 +162,17 @@ namespace Coding.Arrays.ArrayPractice
             }
 
         }
+        public static void Union()
+        {
+            int[] array = { 1, 2, 3, 4, 5 };
+            int[] array1 = { 6, 6, 7, 8, 9 };
+
+            int[] concat = array.Concat(array1).Distinct().ToArray();
+
+            foreach(int b in concat)
+            {
+                Console.WriteLine(b);
+            }
+        }
     }
 }
