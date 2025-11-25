@@ -39,6 +39,11 @@ namespace Coding.Arrays
             Console.WriteLine("git test1");
             Console.WriteLine("git test");
             Console.WriteLine("git test1");
+            Console.WriteLine("git test1");
+            Console.WriteLine("git test");
+            Console.WriteLine("git test1");
+            Console.WriteLine("git test");
+            Console.WriteLine("git test1");
         }
     }
 
