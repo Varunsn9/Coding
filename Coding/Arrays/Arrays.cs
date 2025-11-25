@@ -34,6 +34,7 @@ namespace Coding.Arrays
                 Console.WriteLine(a);
             }
             Console.WriteLine("git test");
+            Console.WriteLine("git test1");
         }
     }
 
