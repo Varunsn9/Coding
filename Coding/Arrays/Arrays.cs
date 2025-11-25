@@ -33,6 +33,7 @@ namespace Coding.Arrays
             {
                 Console.WriteLine(a);
             }
+            Console.WriteLine("git test");
         }
     }
 
